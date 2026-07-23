@@ -1,6 +1,6 @@
 {
   "name": "gorse-cli",
-  "version": "0.5.10",
+  "version": "0.5.11",
   "description": "Command line tool for Gorse cluster management",
   "bin": {
     "gorse-cli": "bin/gorse-cli.js"
