@@ -5,13 +5,13 @@ const { existsSync } = require("node:fs");
 const path = require("node:path");
 
 const PLATFORM_PACKAGE_BY_TARGET = {
-  "x86_64-unknown-linux-gnu": "gorse-cli-linux-x64",
-  "aarch64-unknown-linux-gnu": "gorse-cli-linux-arm64",
-  "loongarch64-unknown-linux-gnu": "gorse-cli-linux-loong64",
-  "riscv64gc-unknown-linux-gnu": "gorse-cli-linux-riscv64",
-  "aarch64-apple-darwin": "gorse-cli-darwin-arm64",
-  "x86_64-pc-windows-msvc": "gorse-cli-win32-x64",
-  "aarch64-pc-windows-msvc": "gorse-cli-win32-arm64",
+  "x86_64-unknown-linux-gnu": "@gorse/gorse-cli-linux-x64",
+  "aarch64-unknown-linux-gnu": "@gorse/gorse-cli-linux-arm64",
+  "loongarch64-unknown-linux-gnu": "@gorse/gorse-cli-linux-loong64",
+  "riscv64gc-unknown-linux-gnu": "@gorse/gorse-cli-linux-riscv64",
+  "aarch64-apple-darwin": "@gorse/gorse-cli-darwin-arm64",
+  "x86_64-pc-windows-msvc": "@gorse/gorse-cli-win32-x64",
+  "aarch64-pc-windows-msvc": "@gorse/gorse-cli-win32-arm64",
 };
 
 const BINARY_BY_TARGET = {

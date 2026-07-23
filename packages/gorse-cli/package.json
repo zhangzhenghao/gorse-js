@@ -15,13 +15,13 @@
     "bin"
   ],
   "optionalDependencies": {
-    "gorse-cli-linux-x64": "0.5.11",
-    "gorse-cli-linux-arm64": "0.5.11",
-    "gorse-cli-linux-loong64": "0.5.11",
-    "gorse-cli-linux-riscv64": "0.5.11",
-    "gorse-cli-darwin-arm64": "0.5.11",
-    "gorse-cli-win32-x64": "0.5.11",
-    "gorse-cli-win32-arm64": "0.5.11"
+    "@gorse/gorse-cli-linux-x64": "0.5.11",
+    "@gorse/gorse-cli-linux-arm64": "0.5.11",
+    "@gorse/gorse-cli-linux-loong64": "0.5.11",
+    "@gorse/gorse-cli-linux-riscv64": "0.5.11",
+    "@gorse/gorse-cli-darwin-arm64": "0.5.11",
+    "@gorse/gorse-cli-win32-x64": "0.5.11",
+    "@gorse/gorse-cli-win32-arm64": "0.5.11"
   },
   "keywords": [
     "gorse",

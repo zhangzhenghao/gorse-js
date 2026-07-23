@@ -5,13 +5,13 @@
   "fixed": [
     [
       "gorse-cli",
-      "gorse-cli-linux-x64",
-      "gorse-cli-linux-arm64",
-      "gorse-cli-linux-loong64",
-      "gorse-cli-linux-riscv64",
-      "gorse-cli-darwin-arm64",
-      "gorse-cli-win32-x64",
-      "gorse-cli-win32-arm64"
+      "@gorse/gorse-cli-linux-x64",
+      "@gorse/gorse-cli-linux-arm64",
+      "@gorse/gorse-cli-linux-loong64",
+      "@gorse/gorse-cli-linux-riscv64",
+      "@gorse/gorse-cli-darwin-arm64",
+      "@gorse/gorse-cli-win32-x64",
+      "@gorse/gorse-cli-win32-arm64"
     ]
   ],
   "linked": [],

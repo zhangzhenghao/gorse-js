@@ -1,5 +1,5 @@
 {
-  "name": "gorse-cli-linux-arm64",
+  "name": "@gorse/gorse-cli-linux-arm64",
   "version": "0.5.11",
   "description": "gorse-cli binary for linux-arm64",
   "files": [
@@ -22,6 +22,9 @@
   "author": "gorse Project Authors",
   "engines": {
     "node": ">=16"
+  },
+  "publishConfig": {
+    "access": "public"
   },
   "gorseTarget": {
     "os": "linux",
