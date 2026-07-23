@@ -6,17 +6,23 @@
     "gorse-cli": "bin/gorse-cli.js"
   },
   "scripts": {
-    "build": "node scripts/check-platform.js",
-    "lint": "node scripts/check-platform.js",
-    "lint:fix": "node scripts/check-platform.js",
-    "test": "node scripts/check-platform.js",
-    "prepack": "node scripts/download.js --all"
+    "build": "node --check bin/gorse-cli.js",
+    "lint": "node --check bin/gorse-cli.js",
+    "lint:fix": "node --check bin/gorse-cli.js",
+    "test": "node --check bin/gorse-cli.js"
   },
   "files": [
-    "bin",
-    "scripts",
-    "vendor"
+    "bin"
   ],
+  "optionalDependencies": {
+    "gorse-cli-linux-x64": "0.5.11",
+    "gorse-cli-linux-arm64": "0.5.11",
+    "gorse-cli-linux-loong64": "0.5.11",
+    "gorse-cli-linux-riscv64": "0.5.11",
+    "gorse-cli-darwin-arm64": "0.5.11",
+    "gorse-cli-win32-x64": "0.5.11",
+    "gorse-cli-win32-arm64": "0.5.11"
+  },
   "keywords": [
     "gorse",
     "gorse-cli",
@@ -33,5 +39,8 @@
     "directory": "packages/gorse-cli"
   },
   "license": "Apache-2.0",
-  "author": "gorse Project Authors"
+  "author": "gorse Project Authors",
+  "engines": {
+    "node": ">=16"
+  }
 }
